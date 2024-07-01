@@ -2,36 +2,36 @@
 
 The primary goal is twofold:
 
-Capture Complex Relationships: Understand and analyze the intricate relationships between various features and the target variables in the dataset.
-Build a Predictive Model: Develop a performant predictive model to comprehend feature interactions and their effects on the target variables, NormalizedOilEUR and NormalizedGasEUR.
+- Capture Complex Relationships: Understand and analyze the intricate relationships between various features and the target variables in the dataset.
+- Build a Predictive Model: Develop a performant predictive model to comprehend feature interactions and their effects on the target variables, NormalizedOilEUR and NormalizedGasEUR.
 
 
 
 # Dataset Description
 The dataset comprises 9206 records with 15 attributes, encompassing a wide range of features related to well characteristics and production metrics. The attributes include:
 
-**WellID**: A unique 10-digit identifier for each well.
-**BVHH**: A measure of rock quality at the well's location.
-**FormationAlias**: The geological zone or rock formation from which the well extracts oil and gas.
-**NioGOR**: Gas-to-oil ratio in the Niobrara formation at the well's coordinates.
-**CodGOR**: Gas-to-oil ratio in the Codell formation at the well's coordinates.
-**LateralLength**: Length of the drilled well in feet.
-**ProppantPerFoot**: Amount of proppant used per foot of the well's length.
-**FluidPerFoot**: Amount of fluid used per foot of the well's length.
-**{Left/Right}Distance**: Distance to the nearest neighboring well on the left/right.
-**{Left/Right}NeighbourType**: Type of neighboring well (parent, co-developed, or none).
-**TVD**: True Vertical Depth of the well.
-**NormalizedOilEUR**: Normalized oil production in bbl/ft over the well's lifetime.
-**NormalizedGasEUR**: Normalized gas production in mcf/ft over the well's lifetime.
+- **WellID**: A unique 10-digit identifier for each well.
+- **BVHH**: A measure of rock quality at the well's location.
+- **FormationAlias**: The geological zone or rock formation from which the well extracts oil and gas.
+- **NioGOR**: Gas-to-oil ratio in the Niobrara formation at the well's coordinates.
+- **CodGOR**: Gas-to-oil ratio in the Codell formation at the well's coordinates.
+- **LateralLength**: Length of the drilled well in feet.
+- **ProppantPerFoot**: Amount of proppant used per foot of the well's length.
+- **FluidPerFoot**: Amount of fluid used per foot of the well's length.
+- **{Left/Right}Distance**: Distance to the nearest neighboring well on the left/right.
+- **{Left/Right}NeighbourType**: Type of neighboring well (parent, co-developed, or none).
+- **TVD**: True Vertical Depth of the well.
+- **NormalizedOilEUR**: Normalized oil production in bbl/ft over the well's lifetime.
+- **NormalizedGasEUR**: Normalized gas production in mcf/ft over the well's lifetime.
 
 
 # Libraries
 A variety of libraries are utilized for data manipulation, visualization, modeling, and evaluation:
 
-Data Manipulation: `numpy`, `pandas`
-Data Visualization: `missingno`, `seaborn`, `matplotlib`, `plotly`
-Machine Learning: `sklearn`, `xgboost`
-Metrics: `r2_score`,`classification_report`
+- Data Manipulation: `numpy`, `pandas`
+- Data Visualization: `missingno`, `seaborn`, `matplotlib`, `plotly`
+- Machine Learning: `sklearn`, `xgboost`
+- Metrics: `r2_score`,`classification_report`
 
 
 # Data Collection and Analysis
