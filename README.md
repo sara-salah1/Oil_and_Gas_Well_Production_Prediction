@@ -50,7 +50,7 @@ A variety of libraries are utilized for data manipulation, visualization, modeli
   
 ## Feature Engineering:
 
-- Extract new features such as ProppantPerFootRatio, FluidPerFootRatio, ProppantFluidRatio, TotalDistance, AverageGOR, LogTVD, and IsNiobrara/IsCodell.
+- Extract new features such as `ProppantPerFootRatio`, `FluidPerFootRatio`, `ProppantFluidRatio`, `TotalDistance`, `AverageGOR`, `LogTVD`, and `IsNiobrara/IsCodell`.
 - Drop unwanted features.
 - Handle outliers using the IQR method.
 
@@ -70,18 +70,18 @@ A variety of libraries are utilized for data manipulation, visualization, modeli
   
 ## Model Training:
 
-- Train various regression models including XGBRegressor, RandomForestRegressor, Lasso, Ridge, GradientBoostingRegressor, and SVR with RBF Kernel.
+- Train various regression models including `XGBRegressor`, `RandomForestRegressor`, `Lasso`, `Ridge`, `GradientBoostingRegressor`, and `SVR` with RBF Kernel.
 - Evaluate models using R² score on training and test sets.
   
 ## Pipeline and Grid Search:
 
 - Implement pipelines for data preprocessing and modeling.
-- Use GridSearchCV for hyperparameter tuning.
+- Use `GridSearchCV` for hyperparameter tuning.
   
 ## Models Used
-- XGBRegressor: Used for predicting oil and gas production with GridSearchCV for hyperparameter tuning.
-- Random Forest Regressor: Used for predicting oil and gas production.
-- Lasso: Used for predicting oil and gas production with hyperparameter tuning for regularization strength.
-- Ridge: Used for predicting oil and gas production with hyperparameter tuning for regularization strength.
-- Gradient Boosting Regressor: Used for predicting oil and gas production.
-- SVR with RBF Kernel: Planned for future inclusion.
+- **XGBRegressor:** Used for predicting oil and gas production with `GridSearchCV` for hyperparameter tuning.
+- **Random Forest Regressor:** Used for predicting oil and gas production.
+- **Lasso:** Used for predicting oil and gas production with hyperparameter tuning for regularization strength.
+- **Ridge:** Used for predicting oil and gas production with hyperparameter tuning for regularization strength.
+- **Gradient Boosting Regressor:** Used for predicting oil and gas production.
+- **SVR with RBF Kernel:** Planned for future inclusion.
