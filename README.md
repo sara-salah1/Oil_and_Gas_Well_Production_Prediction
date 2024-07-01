@@ -1,6 +1,6 @@
 # Oil_and_Gas_Well_Production_Prediction
 
-The primary goal is twofold:
+The primary goal is:
 
 1. **Capture Complex Relationships:** Understand and analyze the intricate relationships between various features and the target variables in the dataset.
 2. **Build a Predictive Model:** Develop a performant predictive model to comprehend feature interactions and their effects on the target variables, `NormalizedOilEUR` and `NormalizedGasEUR`.
